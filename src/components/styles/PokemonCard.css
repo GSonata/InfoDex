@@ -1,0 +1,58 @@
+/* Pokemon List Container */
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 50px; 
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Pokemon Card Styles */
+  .pokemon-card {
+    list-style: none;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: calc(50%);
+    max-width: 300px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .pokemon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Pokemon Name */
+  .pokemon-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  /* Pokemon Image */
+  .pokemon-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: #bb7777;
+    border: 2px solid #eee;
+  }
+  
+  
+  /* Text for Stats */
+  .text {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  

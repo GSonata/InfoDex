@@ -1,0 +1,78 @@
+/* Centering Container for Pokédex */
+.pokedex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Overall Pokedex Container */
+.pokedex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  background-color: #f00; /* Pokedex red */
+  border: 5px solid #333;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transform-origin: left; /* Set the origin for animation */
+  animation: openPokedex 1s ease forwards;
+}
+
+/* Left Side of the Pokedex */
+.pokedex-left {
+  background-color: #f44336;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #333;
+  padding: 20px;
+  position: relative;
+  height: 100%;
+}
+
+.pokedex-left img {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
+  border: 3px solid #333;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Right Side of the Pokedex */
+.pokedex-right {
+  background-color: #e53935;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  border-left: 2px solid #333;
+  height: 100%;
+
+}
+
+/* Text Styling */
+.pokedex h2,
+.pokedex h3 {
+  color: #fff;
+  margin: 5px 0;
+}
+
+/* Opening Animation */
+@keyframes openPokedex {
+  from {
+    transform: rotateX(90deg); /* Start folded */
+  }
+  to {
+    transform: rotateX(0); /* Fully open */
+  }
+}
