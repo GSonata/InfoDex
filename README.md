@@ -1,4 +1,4 @@
-# Pokémon App
+# InfoDex
 
 Este proyecto es una aplicación web interactiva de Pokémon que utiliza la [PokéAPI](https://pokeapi.co/) para mostrar información sobre los Pokémon. Es una herramienta pensada para fans de Pokémon que deseen explorar y aprender más sobre sus Pokémon favoritos, con características de búsqueda y visualización detallada. Proyecto basado en el proyecto final del curso de OpenWebinars "Fundamentos de React" (https://openwebinars.net/academia/portada/react/)
 
